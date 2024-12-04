@@ -1,5 +1,5 @@
 {
-  "name": "sistem-hafalan-qur'an",
+  "name": "sistem-control-hafalan",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.1"
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
