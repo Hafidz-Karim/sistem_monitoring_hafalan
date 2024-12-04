@@ -1,18 +1,20 @@
 {
-  "dependencies": {
-    "express": "^4.21.1",
-    "pg": "^8.13.1"
-  },
   "name": "sistem-hafalan-qur'an",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "ts-node-dev src/app.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.1",
